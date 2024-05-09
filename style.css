@@ -290,7 +290,7 @@ section{
 /*PROJECT SECTION*/
 .projects-section{
     background: var(--bg-color);
-    height: 210vh;
+    min-height: 225vh;
     width: 100%;
 
 }
@@ -376,8 +376,9 @@ section{
 
 .contact-section {
     background: var(--bg2-color);
-    height: 60vh;
+    min-height: 70vh;
     width: 100%;
+    padding: 5rem;
   }
   .contact-content {
     display: flex;
@@ -389,7 +390,6 @@ section{
     font-weight: 700;
     font-size: 21px;
     font-family: var(--h1-font);
-    margin-top: 6rem;
   }
   .contact-title h3 {
     color: var(--text-color);
