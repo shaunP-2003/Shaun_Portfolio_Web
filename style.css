@@ -342,6 +342,7 @@ section{
 }
 .row-text p{
     padding-right: 90px;
+    margin-top: 7px;
 }
 .row-text h5{
     font-weight: 600;
